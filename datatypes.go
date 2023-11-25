@@ -13,6 +13,9 @@ func main(){
 		f float64=3.14
 	)
 
-	fmt.Printf("i: %v %T", i, i)
-	fmt.Printf("f: %v %T", f, f)
+	fmt.Printf("i: %v %T\n", i, i)
+	fmt.Printf("f: %v %T\n", f, f)
+
+	flag:=true
+	fmt.Printf("b: %v %T\n", flag, flag)
 }
